@@ -1,0 +1,224 @@
+* {
+  font-family: 'Gabriela', serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  margin: auto;
+  background-color: #D9E7E8;
+  width: 80%;
+  min-height: 100vh;
+}
+
+/*--------------------HEADER--------------------*/
+
+.App-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+}
+
+.logo {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  width: 140px;
+  height: 140px;
+  background: url('img/Logo-ojo3.jpg');
+  border-radius: 20px;
+  border: 10px #00758E;
+}
+
+.titulo {
+  position: relative;
+  left: 10%;
+}
+
+.eslogan {
+  font-size:medium;
+  position: relative;
+  top: 30px;
+}
+
+.menu {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #00758E;
+  width: 100%;
+  height: 25%;
+}
+
+.enlace {
+  padding: 3%;
+  text-decoration: none;
+  color: white;
+  padding: auto;
+}
+
+.enlace:hover {
+  cursor: pointer;
+  background-color: #D9E7E8;
+  color: #00758E;
+}
+
+/*--------------------BODY--------------------*/
+
+.App-body {
+height: 650px;
+}
+
+/*--------------------INICIO--------------------*/
+
+.inicio {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.p-inicio {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 45%;
+  font-size: 22px;
+}
+
+.p-inicio span {
+  height: 20px;
+}
+
+.btn-cita {
+  font-size: 15px;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  background-color: #00758E;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  width: 150px;
+  height: 20px;
+  padding: 15px;
+}
+
+.btn-cita:hover {
+  background-color:#00748eab ;
+  cursor: pointer;
+} 
+
+.img-inicio {
+  background:url('img/unplash.jpg');
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+
+/*--------------------SOBRE NOSOTROS--------------------*/
+
+.body-sobreNosotros {
+  position: relative;
+  top: 30px;
+}
+
+.sobreNosotros {
+  align-items: center;
+  height: 200px;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+
+.sob-nos {
+  width: 50%;}
+
+.linea {
+  width: 100%;
+  background:#00758E;
+  height: 5px;
+}
+
+.images {
+  width: 30%;
+  height: 200px;;
+}
+
+.retino {
+  background: url('img/retino.jpg');
+  background-size: cover;
+}
+
+.examen {
+  background: url('img/campaña.jpg');
+  background-size: cover;
+}
+
+.ambulancia {
+  background: url('img/ambulance.jpg');
+  background-size: cover;
+}
+
+/*--------------------CONTACTO--------------------*/
+
+.contacto {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contacto p {
+  font-size: 22px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pequeño {
+  width: 100%;
+  height: 0px;
+}
+
+.largo {
+  width: 100%;
+  height: 30px;
+}
+
+.iframe-map {
+  margin-top: 40px;
+  width: 100%;
+  height: 300px;
+}
+
+/*--------------------RESPONSIVE--------------------*/
+
+@media screen and (max-width: 1000px) {
+  .App {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .inicio {
+    top: 0px;
+    display:flex;
+    flex-direction:column-reverse;
+  }
+  .p-inicio {
+    width: 100%;
+  }
+  .img-inicio {
+    width: 100%;
+  }
+}
